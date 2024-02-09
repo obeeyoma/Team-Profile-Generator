@@ -1,12 +1,14 @@
 /* Team styles */
-.team-heading{
-border-radius:0;
-background-color: crimson;
+.team-heading {
+    border-radius: 0;
+    background-color: crimson;
 }
-.team-area{
-flex-wrap:wrap
+
+.team-area {
+    flex-wrap: wrap
 }
+
 /* Employee card styles */
-.employee-card{
-    box-shadow: 2px 2px rgb(182, 179, 179);
+.employee-card {
+    box-shadow: 5px 5px 5px #615f5f;
 }
