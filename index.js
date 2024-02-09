@@ -170,10 +170,6 @@ function getOptions() {
 // Function to generate HTML
 function generateHTML() {
   const html = render(teamMembersArr);
-  // If the output folder does not exist, create it
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR);
-  }
   // Write the HTML to the output folder
   fs.writeFileSync(outputPath, html);
   console.log(`Team Profile HTML generated at ${outputPath}`);
